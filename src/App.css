@@ -1,0 +1,38 @@
+.container {
+  display: block;
+  padding: 0 400px;
+}
+.input_list {
+  display: flex;
+}
+.input_list input {
+  width: 80%;
+  padding: 20px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.input_list button {
+  font-size: 20px;
+  color: bisque;
+  background-color: #dc3545;
+  border: none;
+  cursor: pointer;
+}
+
+.list li input[type="radio"] {
+  width: 30px;
+  height: 30px;
+}
+.list li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 10px;
+}
+.list li p {
+  font-size: 30px;
+  color: tomato;
+  padding-left: 20px;
+  margin: 0;
+}
